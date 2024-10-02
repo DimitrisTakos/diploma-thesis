@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <title>Destinations | Welcome to Greece</title>
@@ -79,7 +80,31 @@
                left: 1350px;
                bottom: -10px;
            }
-
+           .connect {
+               position: relative;
+               left: 1150px;
+               color: cornsilk;
+           }
+           .rights {
+               position: relative;
+               left: 2000px;
+               color: dodgerblue;
+           }
+           .connect {
+               position: relative;
+               left: 1350px;
+               color: deepskyblue;
+               bottom: -125px;
+           }
+           .social {
+               position: relative;
+               left: 2550px;
+           }
+           .weather {
+               position: relative;
+               left: 1150px;
+               bottom: -250px;
+           }
 
     </style>
 </head>
@@ -91,6 +116,11 @@
 <span><b><a class="link2">Κρατήσεις</a></b></span>
 <span><b><a class="link3">Προτάσεις</a></b></span>
 </div>
+
+<div class="weather">
+    <p>weather</p>
+</div>
+
 <div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -158,7 +188,17 @@
       <h4 class="header4b">Ένας θησαυρός πολιτισμού σε κάθε γωνιά.</h4>
            <img src="{% static 'css/images/monuments.jpg' %}" alt="monuments" class="monuments" style="width: 425px; height: 180px;"/>
 
+<footer>
+    <div class="connect">
+        <p><b>Επικοινωνία:</b></p>
+        <p><b>Σταθερό:2351035668</b></p>
+        <p><b>Κινητό:6974832803</b></p>
+    </div>
 
-
+    <div class="social">
+       <a href="https://www.facebook.com/" class="fa fa-facebook"></a> <a href="https://www.instagram.com/" class="fa fa-instagram"></a> <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+    </div>
+    <p class="rights">Designed by Dimitrios Takos. All Rights Reserved 2025 &copy;</p>
+</footer>
 </body>
 </html>
