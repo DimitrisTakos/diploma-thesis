@@ -21,6 +21,12 @@
             margin-left: 950px;
         }
 
+        .h2 {
+            position: relative;
+            margin-bottom: 350px;
+            margin-left: 25px;
+        }
+
         .lang {
             position: relative;
             left: 275px;
@@ -62,8 +68,8 @@
         }
           #demo {
               position: relative;
-              bottom: -350px;
               left: 5px;
+              top: 350px;
 
           }
 
@@ -96,7 +102,9 @@
 </nav>
 <div>
     <h1 class="h1">Καλώς ήρθατε στην Ελλάδα!</h1>
-    <h2>Από την αρχαία ιστορία μέχρι τα σύγχρονα νησιά, ανακάλυψε την ομορφιά και τη διασκέδαση που προσφέρει η χώρα μας.</h2>
+    <h2 class="h2">Σχεδιάζεις ένα ταξίδι στην Ελλάδα; Άφησε μας να σε βοηθήσουμε να βρεις το κατάλυμα που θα κάνει τις διακοπές σου αξέχαστες.<br>
+        Στην σελίδα μας, θα βρεις μια μεγάλη ποικιλία από ξενοδοχεία που προσφέρουν μοναδικές εμπειρίες. Από παραδοσιακά πανδοχεία μέχρι boutique ξενοδοχεία, ανακάλυψε την αυθεντική φιλοξενία της Ελλάδας<br>
+        Από την αρχαία ιστορία μέχρι τα σύγχρονα νησιά, ανακάλυψε την ομορφιά και τη διασκέδαση που προσφέρει η χώρα μας.</h2>
 </div>
 <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -111,7 +119,7 @@
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{% static 'images/delfoi.jpg' %}" alt="delfoi" class="d-block" style="width:2550px; height:720px;">
+      <img src="{% static 'images/delfoi.jpg' %}" alt="delfoi" class="d-block" style="width:2550px; height:820px;">
     </div>
     <div class="carousel-item">
       <img src="chicago.jpg" alt="Chicago" class="d-block" style="width:2550px; height:580px;">
