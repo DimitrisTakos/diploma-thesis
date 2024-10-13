@@ -32,11 +32,40 @@
             top: 450px;
             margin-left: 60px;
         }
+
+        .sea {
+            position: absolute;
+            top: 450px;
+            margin-left: 950px;
+        }
+
+        .monuments {
+            position: absolute;
+            top: 450px;
+            margin-left: 1850px;
+        }
+
         .fun {
             position: absolute;
             bottom: 250px;
             top: 850px;
             margin-left: 150px;
+            font-size: large;
+        }
+
+        .seasun {
+            position: absolute;
+            bottom: 250px;
+            top: 850px;
+            margin-left: 975px;
+            font-size: large;
+        }
+
+        .monu {
+            position: absolute;
+            bottom: 250px;
+            top: 850px;
+            margin-left: 1880px;
             font-size: large;
         }
 
@@ -119,7 +148,8 @@
         Στην σελίδα μας, θα βρεις μια μεγάλη ποικιλία από ξενοδοχεία που προσφέρουν μοναδικές εμπειρίες. Από παραδοσιακά πανδοχεία μέχρι boutique ξενοδοχεία, ανακάλυψε την αυθεντική φιλοξενία της Ελλάδας<br>
         Από την αρχαία ιστορία μέχρι τα σύγχρονα νησιά, ανακάλυψε την ομορφιά και τη διασκέδαση που προσφέρει η χώρα μας.</h2>
     <p class="fun"><b>Ζήσε κάθε στιγμή!<br>Καλές παρέες!<br>Καλή διασκέδαση!<br>Μοιράσου στιγμές χαράς!</b></p>
-
+    <p class="seasun"><b>Θάλασσα, Ήλιος, Ελλάδα! Όλα σε ένα!<br>H Ελλάδα είναι μια αγκαλιά από θάλασσα!<br>Κρυστάλλινα νερά, χρυσή άμμος!</b></p>
+    <p class="monu"><b>Μνημεία που μιλούν αιώνια!<br>Ιστορία ζωντανή σε κάθε πέτρα!<br>Τα μυστικά της αρχαιότητας σε περιμένουν!</b></p>
 </div>
 <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -154,6 +184,8 @@
 </div>
 <div>
     <img src="{% static 'images/Entertainment.jpg' %}" alt="entertainment" class="entertainment" style="width:430px; height:350px;">
+    <img src="{% static 'images/Seashine.jpg' %}" alt="sea" class="sea" style="width:430px; height:350px;">
+    <img src="{% static 'images/monuments.jpg' %}" alt="monuments" class="monuments" style="width:430px; height:350px;">
 </div>
 </body>
 </html>
